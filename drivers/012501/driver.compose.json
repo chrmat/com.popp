@@ -79,6 +79,29 @@
       }
     ]
   },
+  {
+      "id": "automated_close",
+      "zwave": {
+        "index": 0,
+        "size": 1
+      },
+	  "attr": {
+      "min": 0,
+      "max": 127
+    },
+      "type": "number",
+      "value": 3,
+      "label": {
+        "en": "Close again after x seconds",
+        "nl": "Sluit weer na x seconden",
+		"de": "Nach x Sekunden wieder schlieﬂen"
+      },
+      "hint": {
+        "en": "This parameter defines the time before closing again after opening : 0 is no automated close after command open, other value to close again after x seconds. (0-127) (Default: 3)",
+        "nl": "Deze parameter definieert de tijd voordat het weer sluit na het openen: 0 is niet automatisch sluiten na het commando open, andere waarde om weer te sluiten na x seconde. (0-127) (Default: 3)",
+		"de": "Dieser Parameter definiert die Zeit vor dem erneuten Schlieﬂen nach dem ÷ffnen: 0 ist kein automatisches Schlieﬂen nach dem Befehl ÷ffnen, ein anderer Wert, der nach x Sekunden wieder geschlossen werden soll. (0-127) (Default: 3)"
+      }
+    },
   	{
       "id": "value_open_command",
       "zwave": {
