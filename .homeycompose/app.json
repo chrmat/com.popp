@@ -1,0 +1,91 @@
+{
+  "id": "com.popp",
+  "sdk": 2,
+  "name": {
+    "en": "PoPP EU Z-Wave Products",
+    "nl": "PoPP EU Z-Wave Producten",
+    "de": "PoPP EU Z-Wave Produkte"
+  },
+  "description": {
+    "en": "PoPP EU Z-Wave products support for Homey @ Athom",
+    "nl": "PoPP EU Z-Wave product ondersteuning voor Homey @ Athom",
+    "de": "PoPP EU Z-Wave Produkte unterstützung für Homey @ Athom"
+  },
+  "images": {
+    "large": "/assets/images/large.jpg",
+    "small": "/assets/images/small.jpg"
+  },
+  "version": "2.1.1",
+  "compatibility": ">=3.0.0",
+  "brandColor": "#C70039",
+  "tags": {
+    "en": [
+      "scene controller",
+      "remote",
+      "remote control",
+      "central scene",
+      "scenes",
+      "motion detection",
+      "motion",
+      "alarm",
+      "door",
+      "window",
+      "sensor",
+      "switch",
+      "smart plug",
+      "USB",
+      "Weather",
+      "Rain",
+      "Wind",
+      "Valve"
+    ],
+    "nl": [
+      "scene controller",
+      "afstandsbediening",
+      "central scene",
+      "scenes",
+      "bewegingsdetectie",
+      "beweging",
+      "alarm",
+      "deur",
+      "raam",
+      "sensor",
+      "schakelaar",
+      "USB",
+      "Weer",
+      "Regen",
+      "Wind",
+      "Ventiel"
+    ]
+  },
+  "category": [
+    "appliances",
+    "lights",
+    "security",
+    "climate"
+  ],
+  "author": {
+    "name": "Marco Ruiter",
+    "email": "mruiter@tuxweb.nl"
+  },
+  "contributors": {
+    "developers": [
+      {
+        "name": "Marco Ruiter",
+        "email": "mruiter@tuxweb.nl"
+      }
+    ]
+  },
+  "contributing": {
+    "donate": {
+      "paypal": {
+        "username": "MarcoRuiter"
+      }
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/mruiter/com.popp/issues"
+  },
+  "athomForumDiscussionId": 1801
+}
+ 

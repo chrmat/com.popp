@@ -1,4 +1,5 @@
 {
+  "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "com.popp",
   "sdk": 2,
   "name": {
@@ -15,8 +16,9 @@
     "large": "/assets/images/large.jpg",
     "small": "/assets/images/small.jpg"
   },
-  "version": "2.1.0",
+  "version": "2.1.1",
   "compatibility": ">=3.0.0",
+  "brandColor": "#C70039",
   "tags": {
     "en": [
       "scene controller",
@@ -136,53 +138,6 @@
         ]
       },
       {
-        "id": "alarm_state",
-        "title": {
-          "en": "Change the alarm state",
-          "nl": "Verander de alarm toestand",
-          "de": "Ã„ndern des Alarmzustands"
-        },
-        "hint": {
-          "en": "Change the alarm state; sound or silence the alarm",
-          "nl": "Verander de alarm toestand; luiden of uitschakelen van het alarm",
-          "de": "Ã„ndern des Alarmstatus; ErtÃ¶nen oder Ausschalten des Alarms"
-        },
-        "args": [
-          {
-            "type": "device",
-            "name": "device",
-            "filter": "driver_id=005107"
-          },
-          {
-            "name": "device",
-            "type": "device",
-            "filter": "driver_id=005107"
-          },
-          {
-            "name": "alarm_state",
-            "type": "dropdown",
-            "values": [
-              {
-                "id": "off/disable",
-                "label": {
-                  "en": "Silence alarm",
-                  "nl": "Alarm stil",
-                  "de": "Alarm auschalten"
-                }
-              },
-              {
-                "id": "on/enable",
-                "label": {
-                  "en": "Sound alarm",
-                  "nl": "Alarm luiden",
-                  "de": "Alarm einschalten"
-                }
-              }
-            ]
-          }
-        ]
-      },
-      {
         "id": "P700397_reset_meter",
         "title": {
           "en": "Reset meter values",
@@ -222,50 +177,6 @@
       }
     ],
     "triggers": [
-      {
-        "id": "alarm_battery",
-        "title": {
-          "en": "The battery alarm turned on",
-          "nl": "De batterijwaarschuwing gaat aan"
-        },
-        "args": [
-          {
-            "type": "device",
-            "name": "device",
-            "filter": "driver_id=005107"
-          },
-          {
-            "name": "device",
-            "type": "device",
-            "filter": "driver_id=005107"
-          }
-        ]
-      },
-      {
-        "id": "alarm_siren",
-        "title": {
-          "en": "Siren Alarm",
-          "nl": "Sirene Alarm",
-          "de": "Sirenen Alarm"
-        },
-        "hint": {
-          "en": "This card will trigger when siren is activated.",
-          "nl": "Deze kaart wordt alleen geactiveerd wanneer de sirene actief is.",
-          "de": "Diese Karte wird ausgelÃ¶st, wenn die Sirene aktiviert wird."
-        },
-        "args": [
-          {
-            "type": "device",
-            "name": "device",
-            "filter": "driver_id=005107"
-          },
-          {
-            "name": "device",
-            "type": "device",
-            "filter": "driver_id=005107"
-          }
-        ]
-      },
       {
         "id": "dewpoint_value",
         "title": {
@@ -3205,24 +3116,24 @@
         {
           "id": "automated_close",
           "zwave": {
-          "index": 0,
-          "size": 1
-        },
-	    "attr": {
-          "min": 0,
-          "max": 127
-        },
-        "type": "number",
-        "value": 3,
-        "label": {
-          "en": "Close again after x seconds",
-          "nl": "Sluit weer na x seconden",
-		  "de": "Nach x Sekunden wieder schließen"
-        },
-        "hint": {
-          "en": "This parameter defines the time before closing again after opening : 0 is no automated close after command open, other value to close again after x seconds. (0-127) (Default: 3)",
-          "nl": "Deze parameter definieert de tijd voordat het weer sluit na het openen: 0 is niet automatisch sluiten na het commando open, andere waarde om weer te sluiten na x seconde. (0-127) (Default: 3)",
-		  "de": "Dieser Parameter definiert die Zeit vor dem erneuten Schließen nach dem Öffnen: 0 ist kein automatisches Schließen nach dem Befehl Öffnen, ein anderer Wert, der nach x Sekunden wieder geschlossen werden soll. (0-127) (Default: 3)"
+            "index": 0,
+            "size": 1
+          },
+          "attr": {
+            "min": 0,
+            "max": 127
+          },
+          "type": "number",
+          "value": 3,
+          "label": {
+            "en": "Close again after x seconds",
+            "nl": "Sluit weer na x seconden",
+            "de": "Nach x Sekunden wieder schlieï¿½en"
+          },
+          "hint": {
+            "en": "This parameter defines the time before closing again after opening : 0 is no automated close after command open, other value to close again after x seconds. (0-127) (Default: 3)",
+            "nl": "Deze parameter definieert de tijd voordat het weer sluit na het openen: 0 is niet automatisch sluiten na het commando open, andere waarde om weer te sluiten na x seconde. (0-127) (Default: 3)",
+            "de": "Dieser Parameter definiert die Zeit vor dem erneuten Schlieï¿½en nach dem ï¿½ffnen: 0 ist kein automatisches Schlieï¿½en nach dem Befehl ï¿½ffnen, ein anderer Wert, der nach x Sekunden wieder geschlossen werden soll. (0-127) (Default: 3)"
           }
         },
         {
