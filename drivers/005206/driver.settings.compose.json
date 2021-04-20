@@ -23,7 +23,8 @@
       },
       "value": 37,
       "label": {
-        "en": "Schwellwert für Dämmerung"
+        "en": "Threshold for twilight",
+		"de": "Schwellwert für Dämmerung"
       },
       "hint": {
         "en": "Crossing this value from night to day, association group 3 is informed. Crossing this parameter from day to night, association group 4 is informed.",

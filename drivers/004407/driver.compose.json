@@ -1,8 +1,8 @@
 {
   "id": "004407",
   "name": {
-    "en": "CO2 Detector",
-    "nl": "CO2 Detector",
+    "en": "CO Detector",
+    "nl": "CO Detector",
 	"de": "Kohlenmonoxid-Melder"
   },
   "zwave": {
