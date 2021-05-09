@@ -1076,7 +1076,6 @@
           },
           "type": "number"
         }
-        
         {
       "id": "5",
       "zwave": {
@@ -1091,8 +1090,7 @@
         "en": "Status smoke alarm meshing",
       },
       "type": "number"
-    }
-	       
+    }      
 	{
       "id": "6",
       "zwave": {
