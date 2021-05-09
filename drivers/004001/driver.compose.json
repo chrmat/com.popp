@@ -113,13 +113,13 @@
       "zwave": {
         "index": 4,
         "size": 2,
-		"signed": false
+	"signed": false
       },
       "value": 0,
       "label": {
         "en": "Value of BASIC Off-Command",
         "nl": "Waarde van Basic Off-Commando",
-		"de": "Wert des Aus-Befehls"
+	"de": "Wert des Aus-Befehls"
       },
       "hint": {
         "en": "This defines what command is sent into  association group 2",
@@ -127,8 +127,8 @@
         "de": "Hiermit wird definiert, welcher Befehl an die Assoziationsgruppe 2 gesendet wird"
       },
       "type": "number"
-    }
-	{
+    },
+    {	       
       "id": "5",
       "zwave": {
         "index": 5,
@@ -142,8 +142,8 @@
         "en": "Status smoke alarm meshing",
       },
       "type": "number"
-    }       
-	{
+    },       
+    {
       "id": "6",
       "zwave": {
         "index": 6,
