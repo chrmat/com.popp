@@ -1104,11 +1104,10 @@
          "hint": {
            "en": "Status battery alarm meshing",
          },
-         "type": "number"
-	}   
-      ]
-    },
-    {
+         "type": "number" 
+	]
+	},
+	{
       "id": "004407",
       "name": {
         "en": "CO Detector",
