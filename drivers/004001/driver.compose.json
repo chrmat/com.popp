@@ -142,8 +142,7 @@
         "en": "Status smoke alarm meshing",
       },
       "type": "number"
-    }
-	       
+    }       
 	{
       "id": "6",
       "zwave": {
