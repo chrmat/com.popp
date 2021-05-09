@@ -1076,6 +1076,38 @@
           },
           "type": "number"
         }
+        
+        {
+      "id": "5",
+      "zwave": {
+        "index": 5,
+        "size": 1,
+      },
+      "value": 1,
+      "label": {
+        "en": "Status of automated meshing of smoke alarms 0 off 1 on"
+      },
+      "hint": {
+        "en": "Status smoke alarm meshing",
+      },
+      "type": "number"
+    }
+	       
+	{
+      "id": "6",
+      "zwave": {
+        "index": 6,
+        "size": 1,
+      },
+      "value": 0,
+      "label": {
+        "en": "Status of automated meshing of battery alarms 0 off 1 on"
+      },
+      "hint": {
+        "en": "Status battery alarm meshing",
+      },
+      "type": "number"
+    }   
       ]
     },
     {
