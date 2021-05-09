@@ -1105,8 +1105,9 @@
            "en": "Status battery alarm meshing",
          },
          "type": "number" 
+	}
 	]
-	},
+    },
 	{
       "id": "004407",
       "name": {
